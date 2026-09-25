@@ -1,0 +1,116 @@
+body{
+    /*Will try to align the body flex elements in the center as in the image */ 
+    display:flex;
+    justify-content:center; /*Doing this centered the image as per image, no further changes needed*/
+    border:1px; /*Debugging as for visualization purposes */ 
+
+    background-color: rgb(206, 206, 206);
+
+
+
+    
+    
+
+}
+
+.card {
+    width:200px;
+    padding:20px;
+
+    background-color: white;
+    
+    
+    /* debug */
+    /*border:1px solid black; */
+    margin:100px; 
+    
+    display:flex;
+    flex-flow:nowrap column;
+    justify-content:center;
+    
+    
+    
+    
+}
+
+/*The X SVG icon */ 
+
+.close {
+    /*Does nothing, it only moves the text inside .close around, not the entire close around the container*/
+    /*display:flex; 
+    justify-content: center;
+    align-items:center;  */
+
+    /*This ovverrides the .card default settings for justify-content och align-items for individual flex-items*/ 
+    /*align-self:flex-end;*/
+
+    /*Another way of writing this using margin */
+    margin:1px 1px 10px 1px;  
+    margin-left:auto;
+
+    height:10px;
+    flex-flow:wrap;
+    width:20px;
+
+    
+
+    
+    
+
+    /*using margin way of writing this using margin */ 
+    /*margin-left:auto;*/
+    
+}
+
+.close:hover {
+    background-color: grey;
+    border-radius:1vh;
+    fill:white;
+    
+}
+
+/* */ 
+.profile {
+
+    width:80px;
+    align-self:center;
+    border-radius: 50%;
+
+}
+
+.name {
+    flex-wrap:wrap;
+    font-size:large;
+    align-self:center;
+    
+}
+
+.job {
+    margin:1px 10px;
+    align-self:center;
+    color:grey;
+}
+
+.link {
+     /*Becoming more used to using margin-top left bottom and such*/
+    /*margin-top: 80px;
+    margin-left:1px;*/
+    text-decoration:none;
+
+    padding:10px 15px;
+    margin: 80px 1px 5px 1px;
+    border-radius: 4vh;
+
+    align-self:center;
+    background-color:grey;
+    color:white;
+
+    
+}
+
+.link:hover {
+    background-color:rgb(228, 227, 226);
+    color:rgb(50, 49, 49);
+
+}
+
