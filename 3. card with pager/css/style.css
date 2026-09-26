@@ -1,0 +1,84 @@
+body {
+    border:1px; 
+    display:flex;
+    justify-content:center;
+    padding:100px;
+    background-color:rgb(221, 221, 221);
+
+    /*Centrera containern */ 
+}
+
+.card {
+    background-color:white;
+    padding:80px 50px;
+    padding-bottom:20px;
+    width:380px;
+    border:1px; 
+    
+    
+    display:flex;
+    flex-flow:wrap column;
+    align-self:center;
+    
+
+
+    
+}
+
+.quote {
+    width:280px;
+    display:flex;
+    
+    flex:auto;
+    align-self:center;
+
+    text-align:center;
+    font-style:italic;
+
+}
+
+
+
+
+.author {
+    margin-bottom:100px;
+    align-self:center;
+    color:grey;
+}
+
+footer {
+    /* background-color: blanchedalmond; debug*/
+    padding-top:150px;
+    margin-top:auto;
+
+    display:flex;
+    justify-content: center;
+
+    
+    
+    
+    
+    
+}
+
+.dot{
+    display:flex;
+    height:15px;
+    padding:1px;
+    margin:10px 20px;
+    flex-flow: nowrap row;
+    /* background-color:aquamarine; debug*/
+    
+    
+    
+}
+
+.circle1{
+    fill:grey;
+}
+.circle1:hover {
+    fill:aliceblue;
+}
+
+
+
