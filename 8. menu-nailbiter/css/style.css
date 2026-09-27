@@ -1,0 +1,160 @@
+body {
+    box-sizing:border-box;
+    flex-direction:column;
+    display:flex;
+    flex-wrap:nowrap;
+    flex-basis:100%;
+    max-height:100%;
+
+}
+
+.container {
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+
+    /*Decor*/
+    border:1px solid black;
+    flex-wrap:nowrap;
+    min-height:0px;
+    min-width:0px;
+    max-height:100%;
+    max-width:100%;
+    
+}
+.header {
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:column;
+    
+}
+.navbar {
+    display:flex;
+    box-sizing:border-box;
+    flex-direction:row;
+    justify-content:space-between;
+
+    /*decor */ 
+    height:25%;
+}
+
+.logo{
+    width:150px;
+    
+    margin:10px;
+}
+
+.hamburger{
+    display:flex;
+    flex-direction:column;
+    width:50px;
+    justify-content:center;
+    gap:10px;
+    
+
+    /*decoration*/
+    padding:20px;
+    flex-wrap:nowrap;
+    
+
+}
+.bar{
+    
+    height:5px;
+    background-color:grey;
+    border:1px solid rgb(118, 117, 117);
+    
+    
+}
+/*   */
+
+.search {
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    flex-grow:1;
+
+
+}
+
+.search-input{
+    height:50px;
+    
+
+    /*decor*/ 
+    flex-grow:1;
+    align-self: center;
+    margin:0px 50px;
+    
+
+}
+.search-icon{
+    width:70px;
+    flex-basis:70px;
+    align-self: center;
+    margin:0px 100px 0px 20px;
+    
+}
+
+/* */
+
+.divider {
+    display:flex;
+    flex-direction:column;
+    background-color: grey;
+    height:1px;
+    flex-grow:1;
+    margin:0px;
+    
+}
+
+.main-nav {
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+
+    /* decor*/ 
+    margin:50px 0px;
+    height:50%;
+
+}
+
+.nav-link {
+    display:flex;
+    box-sizing:border-box;
+    width:70px;
+    
+
+    /*decor*/
+    align-self:center;
+   
+    text-decoration:none;
+    font-size:30px;
+    gap:50px;
+    align-items:center;
+    color:grey;
+
+}
+
+.nav-link img {
+    fill:grey;
+}
+
+/* */ 
+
+.footer {
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:column;
+    flex-grow:1;
+    align-self:center;
+
+    /* */ 
+    font-size:40px;
+    font-weight:bold;
+    color:grey;
+    margin:20% 0%;
+    
+}
+
