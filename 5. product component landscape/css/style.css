@@ -6,7 +6,7 @@ body {
 .product { 
     background-color:yellow;
     width:auto;
-    border: 1px solid black; 
+    border: 1px; 
     margin:50px 60px;
     display:flex; 
     align-items: center; 
@@ -107,6 +107,7 @@ aside {
     margin-bottom:10px;
     margin-left:auto;
     margin-right:10%;
+    border:2px solid black;
     
     
 }
