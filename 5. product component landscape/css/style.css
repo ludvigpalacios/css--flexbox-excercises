@@ -1,0 +1,112 @@
+body {
+    background-color:rgb(212, 212, 212);
+}
+
+/*The container */
+.product { 
+    background-color:yellow;
+    width:auto;
+    border: 1px solid black; 
+    margin:50px 60px;
+    display:flex; 
+    align-items: center; 
+    flex-wrap:wrap;
+    flex-direction: row;  
+    min-height:300px;
+
+    flex-grow:1;
+    flex-shrink:1;
+
+  
+    
+    
+
+}
+
+
+/*Flex item 1*/
+figure{
+    display:flex;
+    flex-direction:column;
+
+    margin:0px;
+    flex:50%;
+    justify-content:center;
+    flex-shrink:1;
+    flex-grow:1;
+    
+}
+/*Flex-item 2, they share and shrink equally as given by their grow and shrink values*/ 
+aside {
+    padding:1%;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+
+    background-color:white;
+    text-align:center;
+    align-self:stretch;
+    flex-grow:1;
+    flex-shrink:1;
+    
+
+
+}
+
+/*Flex-item 1 chilren */ 
+
+.product-image {
+    min-width: none;
+    width:40%;
+    flex-shrink:1;
+    align-self:center;
+    margin:2%;
+    
+}
+.price {
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    background-color:yellow;
+    text-align:end;
+    flex-grow:1;
+    flex-shrink:1;
+    margin-bottom:2%;
+    margin-right:4%;
+
+
+}
+/* Flex item 2 children */ 
+
+
+.product-title{
+    flex-grow:2;
+    margin-bottom:0px;
+}
+
+.product-subtitle{
+    
+    flex-grow:1;
+    margin-bottom:2%;
+    margin-top:0%;
+
+}
+.product-description {
+    display:flex;
+    flex-wrap:wrap;
+    align-self:center;
+    margin:0px 4%;
+    flex-grow:2;
+
+}
+
+.cta{
+    flex-basis:30px;
+    flex-grow:1;
+    flex-shrink:1;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:10%;
+    
+    
+}
