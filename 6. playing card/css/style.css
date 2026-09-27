@@ -1,0 +1,66 @@
+body{
+
+    background-color:grey;
+
+}
+
+.card{
+    
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+    width:200px;
+    height:320px;
+
+    /*Decoration*/
+    border:1px; 
+    background-color:rgb(245, 244, 244);
+    
+    padding:10px;
+    
+
+    font-size:60px;
+    color:red;
+    
+}
+
+.top{
+    display:flex;
+    flex-direction:column;
+    align-self:flex-start;
+    flex-grow:1;
+
+
+    /*Decoration*/
+    color:red;
+    font-size:40px;
+}
+
+.top span{
+    color:black;
+    font-size:30px;
+    text-align:center;
+    
+    
+}
+
+.bottom{
+    display:flex;
+    flex-direction:column-reverse;
+    flex-grow:1;
+    align-self:flex-end;
+
+    /*Decoration*/
+    color:red;
+    font-size:40px;
+    
+    
+}
+
+.bottom span{
+    color:black;
+    font-size:30px;
+    text-align:center;
+}
